@@ -86,7 +86,7 @@ html {
 
 body {
   background: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Gloria Hallelujah', cursive;
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
@@ -95,7 +95,7 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: black;
   border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
   -moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
   -webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
