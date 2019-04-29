@@ -17,7 +17,7 @@ app.get('/data', (request, response) => {
     departure: Date.now(),
     canFly: true,
     pilot: 'Well Trained'
-  }
+  };
   response.status(200).json(airplanes);
 });
 
