@@ -2023,9 +2023,18 @@ button,
     }
 
     #main > section.one {
-      background-color: sandybrown;
-      background-image: url("https://www.publicdomainpictures.net/pictures/50000/nahled/shining-blue-water-background.jpg");
       color: black;
+    }
+    
+    /* Referenced from: https://stackoverflow.com/questions/26905511/css-background-video */
+    .video-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -20;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     #main > section.two {
@@ -2159,7 +2168,7 @@ button,
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 736px) {
 
   /* Basic */
 
